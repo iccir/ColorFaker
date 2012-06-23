@@ -1,0 +1,5 @@
+*REPLACE WITH REAL TEXT PRIOR TO RELEASE*
+
+Color Faker replaces the Generic RGB and sRGB color profiles with the main display's profile.
+
+As a side-effect, any "Convert to sRGB" or "Assign sRGB Profile" commands in applications will no longer work.  You will still be able to manually assign the backup sRGB profile.

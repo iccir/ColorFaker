@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55270D3B1594003500C32EB0 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 55270D3A1594003500C32EB0 /* icon.icns */; };
+		55270D3E1594054900C32EB0 /* AdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55270D3D1594054900C32EB0 /* AdView.m */; };
+		55270D441595397E00C32EB0 /* ccm.png in Resources */ = {isa = PBXBuildFile; fileRef = 55270D431595397E00C32EB0 /* ccm.png */; };
+		55270D5015953E3900C32EB0 /* ccm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55270D4F15953E3900C32EB0 /* ccm@2x.png */; };
+		55270D5215953EB100C32EB0 /* libSystem.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55270D5115953EB100C32EB0 /* libSystem.dylib */; };
+		55270D5315953EBA00C32EB0 /* libSystem.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55270D5115953EB100C32EB0 /* libSystem.dylib */; };
+		55270D56159540A700C32EB0 /* Info.txt in Resources */ = {isa = PBXBuildFile; fileRef = 55270D55159540A700C32EB0 /* Info.txt */; };
+		5589E36C15929D9800C5CBA8 /* BigSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5589E36B15929D9800C5CBA8 /* BigSwitch.m */; };
+		5589E36F1592A71700C5CBA8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5589E36E1592A71700C5CBA8 /* QuartzCore.framework */; };
+		5589E3741592B05700C5CBA8 /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 5589E3701592B05700C5CBA8 /* knob.png */; };
+		5589E3751592B05700C5CBA8 /* knob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5589E3711592B05700C5CBA8 /* knob@2x.png */; };
+		5589E3761592B05700C5CBA8 /* well.png in Resources */ = {isa = PBXBuildFile; fileRef = 5589E3721592B05700C5CBA8 /* well.png */; };
+		5589E3771592B05700C5CBA8 /* well@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5589E3731592B05700C5CBA8 /* well@2x.png */; };
+		5589E37A1592FD2100C5CBA8 /* knob_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5589E3781592FD2100C5CBA8 /* knob_pressed.png */; };
+		5589E37B1592FD2100C5CBA8 /* knob_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5589E3791592FD2100C5CBA8 /* knob_pressed@2x.png */; };
+		5589E38215930B4600C5CBA8 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5589E38115930B4600C5CBA8 /* ServiceManagement.framework */; };
+		5589E38615930C5700C5CBA8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5589E38515930C5700C5CBA8 /* Security.framework */; };
+		5589E38815930D7800C5CBA8 /* com.iccir.ColorFakerHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5590009715915D0D0009D6B8 /* com.iccir.ColorFakerHelper */; };
+		5590006D159148E80009D6B8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5590006C159148E80009D6B8 /* Cocoa.framework */; };
+		55900079159148E80009D6B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55900078159148E80009D6B8 /* main.m */; };
+		55900080159148E80009D6B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5590007F159148E80009D6B8 /* AppDelegate.m */; };
+		55900083159148E80009D6B8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55900081159148E80009D6B8 /* MainMenu.xib */; };
+		5590009A15915D0D0009D6B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5590009915915D0D0009D6B8 /* Foundation.framework */; };
+		559000A515915D260009D6B8 /* ColorFakerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5590009115915CC00009D6B8 /* ColorFakerHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		559000A615915D4F0009D6B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5590005F159148E80009D6B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5590009615915D0D0009D6B8;
+			remoteInfo = ColorFakerHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5589E38715930D6E00C5CBA8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				5589E38815930D7800C5CBA8 /* com.iccir.ColorFakerHelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55270D3A1594003500C32EB0 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = Resources/icon.icns; sourceTree = SOURCE_ROOT; };
+		55270D3C1594054900C32EB0 /* AdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdView.h; path = Source/AdView.h; sourceTree = SOURCE_ROOT; };
+		55270D3D1594054900C32EB0 /* AdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdView.m; path = Source/AdView.m; sourceTree = SOURCE_ROOT; };
+		55270D431595397E00C32EB0 /* ccm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ccm.png; path = Resources/ccm.png; sourceTree = SOURCE_ROOT; };
+		55270D4F15953E3900C32EB0 /* ccm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ccm@2x.png"; path = "Resources/ccm@2x.png"; sourceTree = SOURCE_ROOT; };
+		55270D5115953EB100C32EB0 /* libSystem.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.dylib; path = usr/lib/libSystem.dylib; sourceTree = SDKROOT; };
+		55270D55159540A700C32EB0 /* Info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Info.txt; path = Resources/Info.txt; sourceTree = SOURCE_ROOT; };
+		5589E36A15929D9800C5CBA8 /* BigSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BigSwitch.h; path = Source/BigSwitch.h; sourceTree = SOURCE_ROOT; };
+		5589E36B15929D9800C5CBA8 /* BigSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BigSwitch.m; path = Source/BigSwitch.m; sourceTree = SOURCE_ROOT; };
+		5589E36E1592A71700C5CBA8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5589E3701592B05700C5CBA8 /* knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knob.png; path = Resources/knob.png; sourceTree = SOURCE_ROOT; };
+		5589E3711592B05700C5CBA8 /* knob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "knob@2x.png"; path = "Resources/knob@2x.png"; sourceTree = SOURCE_ROOT; };
+		5589E3721592B05700C5CBA8 /* well.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = well.png; path = Resources/well.png; sourceTree = SOURCE_ROOT; };
+		5589E3731592B05700C5CBA8 /* well@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "well@2x.png"; path = "Resources/well@2x.png"; sourceTree = SOURCE_ROOT; };
+		5589E3781592FD2100C5CBA8 /* knob_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knob_pressed.png; path = Resources/knob_pressed.png; sourceTree = SOURCE_ROOT; };
+		5589E3791592FD2100C5CBA8 /* knob_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "knob_pressed@2x.png"; path = "Resources/knob_pressed@2x.png"; sourceTree = SOURCE_ROOT; };
+		5589E38115930B4600C5CBA8 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		5589E38515930C5700C5CBA8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		55900068159148E80009D6B8 /* ColorFaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorFaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5590006C159148E80009D6B8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5590006F159148E80009D6B8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		55900071159148E80009D6B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55900074159148E80009D6B8 /* ColorFaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ColorFaker-Info.plist"; path = "../Resources/ColorFaker-Info.plist"; sourceTree = "<group>"; };
+		55900078159148E80009D6B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = SOURCE_ROOT; };
+		5590007A159148E80009D6B8 /* ColorFaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ColorFaker-Prefix.pch"; path = "Source/ColorFaker-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		5590007E159148E80009D6B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Source/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		5590007F159148E80009D6B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Source/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		55900082159148E80009D6B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5590009115915CC00009D6B8 /* ColorFakerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorFakerHelper.m; path = Source/ColorFakerHelper.m; sourceTree = "<group>"; };
+		5590009715915D0D0009D6B8 /* com.iccir.ColorFakerHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.iccir.ColorFakerHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		5590009915915D0D0009D6B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55CFCB3115929079000AA5FD /* ColorFakerHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ColorFakerHelper-Info.plist"; path = "Resources/ColorFakerHelper-Info.plist"; sourceTree = "<group>"; };
+		55CFCB321592911E000AA5FD /* ColorFakerHelper-launchd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ColorFakerHelper-launchd.plist"; path = "Resources/ColorFakerHelper-launchd.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55900065159148E80009D6B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55270D5215953EB100C32EB0 /* libSystem.dylib in Frameworks */,
+				5589E38615930C5700C5CBA8 /* Security.framework in Frameworks */,
+				5589E38215930B4600C5CBA8 /* ServiceManagement.framework in Frameworks */,
+				5589E36F1592A71700C5CBA8 /* QuartzCore.framework in Frameworks */,
+				5590006D159148E80009D6B8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5590009415915D0D0009D6B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55270D5315953EBA00C32EB0 /* libSystem.dylib in Frameworks */,
+				5590009A15915D0D0009D6B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55270D5415953F5300C32EB0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				55270D3A1594003500C32EB0 /* icon.icns */,
+				55270D431595397E00C32EB0 /* ccm.png */,
+				55270D4F15953E3900C32EB0 /* ccm@2x.png */,
+				5589E3781592FD2100C5CBA8 /* knob_pressed.png */,
+				5589E3791592FD2100C5CBA8 /* knob_pressed@2x.png */,
+				5589E3701592B05700C5CBA8 /* knob.png */,
+				5589E3711592B05700C5CBA8 /* knob@2x.png */,
+				5589E3721592B05700C5CBA8 /* well.png */,
+				5589E3731592B05700C5CBA8 /* well@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		5590005D159148E80009D6B8 = {
+			isa = PBXGroup;
+			children = (
+				5590008F15915C9C0009D6B8 /* Helper */,
+				55900072159148E80009D6B8 /* App Source */,
+				55900073159148E80009D6B8 /* Resources */,
+				5590006B159148E80009D6B8 /* Frameworks */,
+				55900069159148E80009D6B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55900069159148E80009D6B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55900068159148E80009D6B8 /* ColorFaker.app */,
+				5590009715915D0D0009D6B8 /* com.iccir.ColorFakerHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5590006B159148E80009D6B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55270D5115953EB100C32EB0 /* libSystem.dylib */,
+				55900071159148E80009D6B8 /* Foundation.framework */,
+				5590006F159148E80009D6B8 /* AppKit.framework */,
+				5589E38515930C5700C5CBA8 /* Security.framework */,
+				5589E38115930B4600C5CBA8 /* ServiceManagement.framework */,
+				5589E36E1592A71700C5CBA8 /* QuartzCore.framework */,
+				5590006C159148E80009D6B8 /* Cocoa.framework */,
+				5590009915915D0D0009D6B8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55900072159148E80009D6B8 /* App Source */ = {
+			isa = PBXGroup;
+			children = (
+				55270D55159540A700C32EB0 /* Info.txt */,
+				55270D3C1594054900C32EB0 /* AdView.h */,
+				55270D3D1594054900C32EB0 /* AdView.m */,
+				5589E36A15929D9800C5CBA8 /* BigSwitch.h */,
+				5589E36B15929D9800C5CBA8 /* BigSwitch.m */,
+				5590007E159148E80009D6B8 /* AppDelegate.h */,
+				5590007F159148E80009D6B8 /* AppDelegate.m */,
+				55900078159148E80009D6B8 /* main.m */,
+				5590007A159148E80009D6B8 /* ColorFaker-Prefix.pch */,
+			);
+			name = "App Source";
+			path = ColorFaker;
+			sourceTree = "<group>";
+		};
+		55900073159148E80009D6B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55900074159148E80009D6B8 /* ColorFaker-Info.plist */,
+				55900081159148E80009D6B8 /* MainMenu.xib */,
+				55270D5415953F5300C32EB0 /* Images */,
+			);
+			name = Resources;
+			path = ColorFaker;
+			sourceTree = "<group>";
+		};
+		5590008F15915C9C0009D6B8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				55CFCB3115929079000AA5FD /* ColorFakerHelper-Info.plist */,
+				55CFCB321592911E000AA5FD /* ColorFakerHelper-launchd.plist */,
+				5590009115915CC00009D6B8 /* ColorFakerHelper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55900067159148E80009D6B8 /* ColorFaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55900086159148E80009D6B8 /* Build configuration list for PBXNativeTarget "ColorFaker" */;
+			buildPhases = (
+				55900064159148E80009D6B8 /* Sources */,
+				55900065159148E80009D6B8 /* Frameworks */,
+				55900066159148E80009D6B8 /* Resources */,
+				5589E38715930D6E00C5CBA8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559000A715915D4F0009D6B8 /* PBXTargetDependency */,
+			);
+			name = ColorFaker;
+			productName = ColorFaker;
+			productReference = 55900068159148E80009D6B8 /* ColorFaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5590009615915D0D0009D6B8 /* ColorFakerHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559000A215915D0D0009D6B8 /* Build configuration list for PBXNativeTarget "ColorFakerHelper" */;
+			buildPhases = (
+				5590009315915D0D0009D6B8 /* Sources */,
+				5590009415915D0D0009D6B8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorFakerHelper;
+			productName = ColorFakerHelper;
+			productReference = 5590009715915D0D0009D6B8 /* com.iccir.ColorFakerHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5590005F159148E80009D6B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ricci Adams";
+			};
+			buildConfigurationList = 55900062159148E80009D6B8 /* Build configuration list for PBXProject "ColorFaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5590005D159148E80009D6B8;
+			productRefGroup = 55900069159148E80009D6B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55900067159148E80009D6B8 /* ColorFaker */,
+				5590009615915D0D0009D6B8 /* ColorFakerHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55900066159148E80009D6B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55900083159148E80009D6B8 /* MainMenu.xib in Resources */,
+				5589E3741592B05700C5CBA8 /* knob.png in Resources */,
+				5589E3751592B05700C5CBA8 /* knob@2x.png in Resources */,
+				5589E3761592B05700C5CBA8 /* well.png in Resources */,
+				5589E3771592B05700C5CBA8 /* well@2x.png in Resources */,
+				5589E37A1592FD2100C5CBA8 /* knob_pressed.png in Resources */,
+				5589E37B1592FD2100C5CBA8 /* knob_pressed@2x.png in Resources */,
+				55270D3B1594003500C32EB0 /* icon.icns in Resources */,
+				55270D441595397E00C32EB0 /* ccm.png in Resources */,
+				55270D5015953E3900C32EB0 /* ccm@2x.png in Resources */,
+				55270D56159540A700C32EB0 /* Info.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55900064159148E80009D6B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55900079159148E80009D6B8 /* main.m in Sources */,
+				55900080159148E80009D6B8 /* AppDelegate.m in Sources */,
+				5589E36C15929D9800C5CBA8 /* BigSwitch.m in Sources */,
+				55270D3E1594054900C32EB0 /* AdView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5590009315915D0D0009D6B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559000A515915D260009D6B8 /* ColorFakerHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		559000A715915D4F0009D6B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5590009615915D0D0009D6B8 /* ColorFakerHelper */;
+			targetProxy = 559000A615915D4F0009D6B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55900081159148E80009D6B8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55900082159148E80009D6B8 /* en */,
+			);
+			name = MainMenu.xib;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55900084159148E80009D6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		55900085159148E80009D6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		55900087159148E80009D6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/ColorFaker-Prefix.pch";
+				INFOPLIST_FILE = "Resources/ColorFaker-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55900088159148E80009D6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/ColorFaker-Prefix.pch";
+				INFOPLIST_FILE = "Resources/ColorFaker-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		559000A315915D0D0009D6B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"Resources/ColorFakerHelper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"Resources/ColorFakerHelper-launchd.plist",
+				);
+				PRODUCT_NAME = com.iccir.ColorFakerHelper;
+			};
+			name = Debug;
+		};
+		559000A415915D0D0009D6B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"Resources/ColorFakerHelper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"Resources/ColorFakerHelper-launchd.plist",
+				);
+				PRODUCT_NAME = com.iccir.ColorFakerHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55900062159148E80009D6B8 /* Build configuration list for PBXProject "ColorFaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55900084159148E80009D6B8 /* Debug */,
+				55900085159148E80009D6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55900086159148E80009D6B8 /* Build configuration list for PBXNativeTarget "ColorFaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55900087159148E80009D6B8 /* Debug */,
+				55900088159148E80009D6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559000A215915D0D0009D6B8 /* Build configuration list for PBXNativeTarget "ColorFakerHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559000A315915D0D0009D6B8 /* Debug */,
+				559000A415915D0D0009D6B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5590005F159148E80009D6B8 /* Project object */;
+}
