@@ -79,7 +79,7 @@
 		5590006C159148E80009D6B8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5590006F159148E80009D6B8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		55900071159148E80009D6B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		55900074159148E80009D6B8 /* ColorFaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ColorFaker-Info.plist"; path = "../Resources/ColorFaker-Info.plist"; sourceTree = "<group>"; };
+		55900074159148E80009D6B8 /* ColorFaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ColorFaker-Info.plist"; path = "Resources/ColorFaker-Info.plist"; sourceTree = SOURCE_ROOT; };
 		55900078159148E80009D6B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = SOURCE_ROOT; };
 		5590007A159148E80009D6B8 /* ColorFaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ColorFaker-Prefix.pch"; path = "Source/ColorFaker-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		5590007E159148E80009D6B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Source/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -329,8 +329,8 @@
 				55900082159148E80009D6B8 /* en */,
 			);
 			name = MainMenu.xib;
-			path = ../Resources;
-			sourceTree = "<group>";
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
