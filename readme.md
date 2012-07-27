@@ -15,7 +15,7 @@ As a side-effect, any "Convert to sRGB" or "Assign sRGB Profile" commands in app
 
 ## Usage
 
-1. [Download ColorFaker](https://github.com/downloads/iccir/ColorFaker/ColorFaker_1.0.app.zip) and launch it
+1. [Download ColorFaker](https://github.com/iccir/ColorFaker/downloads) and launch it
 2. Turn the giant switch to On
 3. There is no step 3
 
