@@ -136,6 +136,11 @@ static void sPeerEventHandler(xpc_connection_t connection, xpc_object_t event)
         const void *dataBytes = xpc_dictionary_get_data(event, "data", &dataLength);
         const char *cString   = xpc_dictionary_get_string(event, "command");
         
+        if (!cString) {
+            NSLog(@"ColorFakerHelper: sPeerEventHandler(): cString is NULL");
+            return;
+        }
+        
         if (cString) {
             command = [[NSString alloc] initWithCString:cString encoding:NSUTF8StringEncoding];
         }
@@ -164,7 +169,10 @@ static void sPeerEventHandler(xpc_connection_t connection, xpc_object_t event)
         xpc_release(reply);
         
         if (command) [command release];
-	}
+
+	} else {
+        NSLog(@"ColorFakerHelper: sPeerEventHandler() received error event");
+    }
 }
 
 

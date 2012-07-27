@@ -128,15 +128,23 @@ const UInt8 sColorFakerSRGBDesc[] = {
 {
     NSError *error = nil;
 
+    if (![self _attempToBlessHelper:&error]) {
+        [self _setStatusText:NSLocalizedString(@"Could not launch helper tool.", nil) type:StatusTextTypeError];
+        [self _updateSwitchAnimated:YES];
+        return;
+    }
+
     xpc_connection_t connection = xpc_connection_create_mach_service(sHelperLabel, NULL, XPC_CONNECTION_MACH_SERVICE_PRIVILEGED);
 
-    if (!connection) {
-        if (![self _attempToBlessHelper:&error]) {
-            [self _setStatusText:NSLocalizedString(@"Could not launch helper tool.", nil) type:StatusTextTypeError];
-            [self _updateSwitchAnimated:YES];
-            return;
+    xpc_connection_set_event_handler(connection, ^(xpc_object_t event) {
+        xpc_type_t type = xpc_get_type(event);
+        
+        if (type == XPC_TYPE_ERROR) {
+            [self _setStatusText:NSLocalizedString(@"Could not communicate with helper tool.", nil) type:StatusTextTypeError];
         }
+    });
 
+    if (!connection) {
         connection = xpc_connection_create_mach_service(sHelperLabel, NULL, XPC_CONNECTION_MACH_SERVICE_PRIVILEGED);
     }
     
@@ -146,19 +154,10 @@ const UInt8 sColorFakerSRGBDesc[] = {
         return;
     }
     
-    xpc_connection_set_event_handler(connection, ^(xpc_object_t event) {
-        xpc_type_t type = xpc_get_type(event);
-        
-        if (type == XPC_TYPE_ERROR) {
-            [self _setStatusText:NSLocalizedString(@"Could not communicate with helper tool.", nil) type:StatusTextTypeError];
-        }
-    });
     
     xpc_connection_resume(connection);
     
     xpc_object_t request = xpc_dictionary_create(NULL, NULL, 0);
-    
-    
     
     xpc_dictionary_set_string(request, "command", [command UTF8String]);
 
