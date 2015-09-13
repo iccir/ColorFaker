@@ -2,6 +2,8 @@
 
 ColorFaker is a small utility that restores pre-10.8 color management behavior on OS X 10.8. 
 
+**<h1>Note: ColorFaker is no longer being developed and is [incompatible](https://github.com/iccir/ColorFaker/issues/1) with OS X 10.10 and higher.</h1>**
+
 ## Why?
 
 In OS X 10.8 Mountain Lion, when a color or image lacks an embedded color profile, it is interpreted in the sRGB color space.  Previously, the main display's color space was used.
